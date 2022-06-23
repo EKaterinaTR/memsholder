@@ -1,0 +1,58 @@
+POST http://localhost:8090/user
+Content-Type: application/json; charset=UTF-8
+
+{
+  "userName": "kaatya",
+  "firstName": "tassss",
+  "lastName": "ts",
+  "email": "tssf@gmail.com",
+  "password": "tststststs10",
+  "phone": "215-789-0123",
+  "role": "Admin"
+}
+
+###
+GET http://localhost:8090/user
+Content-Type: application/json; charset=UTF-8
+###
+###
+POST http://localhost:8090/user/login
+Content-Type: application/json; charset=UTF-8
+
+{
+  "userName": "katya",
+  "password": "tststststs10"
+}
+
+###
+POST http://localhost:8090/mem
+Content-Type: application/json; charset=UTF-8
+
+{
+  "text": "it workss",
+  "user": 1,
+  "tags": [
+    {
+      "text": "no",
+      "id": 1
+    }
+  ]
+}
+
+###
+POST http://localhost:8090/mem
+Content-Type: application/json; charset=UTF-8
+
+{
+  "text": "22it workss22",
+  "user": 1,
+  "tags": [
+    {
+      "text": "no",
+      "id": 1
+    }
+  ]
+}
+
+
+
